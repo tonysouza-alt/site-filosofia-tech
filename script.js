@@ -111,7 +111,7 @@ if (newsletterForm) {
 // Barra de Progresso de Leitura
 window.addEventListener('scroll', () => {
     const progressBar = document.getElementById('progress-bar');
-    if (!progressBar) return;
+    if (!progressBar) return; // Se a div não existir na página, ignora sem dar erro
 
     const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
