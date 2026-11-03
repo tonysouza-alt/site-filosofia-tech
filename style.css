@@ -524,3 +524,14 @@ body.dark-theme pre {
         flex-direction: column;
     }
 }
+/* Barra de Progresso de Leitura */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background-color: #2563eb; /* Cor azul suave (pode ajustar para a cor da sua preferência) */
+    width: 0%;
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+}
